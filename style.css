@@ -4049,6 +4049,7 @@ textarea {
   .tab-content .transfer {
     padding: 24px;
     flex-direction: column;
+    height: inherit;
   }
   .tab-content .transfer-title {
     margin: 0 0 16px;
@@ -4065,6 +4066,9 @@ textarea {
     padding: 22px 40px;
     border-radius: 8px;
     margin-top: 24px;
+  }
+  .tab-content .transfer picture {
+    margin: 24px auto 0;
   }
   .footer-row,
   .footer-info {
